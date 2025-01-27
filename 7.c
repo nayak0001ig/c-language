@@ -1,20 +1,19 @@
-/*Create a function to calculate the factorial of a number..*/
+/* Write a program to check equivalence of two number’s using conditional operator. */
 
 #include<stdio.h>
- int factorial(int num){
-     int fact=1;
-     for (int  i = 1; i <=num; i++)
-     {
-        fact*=i;
-     }
-     return fact;
-     
- }
 int main()
 {
-int n;
-printf("enter the value of n:");
-scanf("%d",&n);
-printf("the factorial of %d is %d",n,factorial(n));
+int a,b;
+printf("enter the number of a:");
+scanf("%d",&a);
+printf("enter the number of b:");
+scanf("%d",&b);
+if (a>b)
+{
+    printf("a is greater:%d",a);
+}
+else {
+    printf("b is greater :%d",b);
+}
 return 0;
 }

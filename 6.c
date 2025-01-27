@@ -1,19 +1,25 @@
-/*Write a program with a function to check if a given number is even or odd.*/
+/*Write a program to demonstrate relational operators. */
 
 #include<stdio.h>
-void value(int a){
-    if(a%2==0){
-        printf("this is even");
-    }
-    else{
-        printf("this is odd");
-    }
-}
 int main()
 {
-int x;
-printf("enter the value of x :");
-scanf("%d",&x);
-   value(x);
+int a=10,b=20;
+if (a==b)
+{
+    printf("a and b is equal\n");
+}
+if (a!=b)
+{
+    printf("a is not equal to b\n");
+}
+if (a>=b)
+{
+    printf("a is greater than b\n");
+}
+if (a<=b)
+{
+    printf("b is greater than a\n");
+}
+
 return 0;
 }
